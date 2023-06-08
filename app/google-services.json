@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:521946563407:android:23a95a0931a29bb28dbb3a",
         "android_client_info": {
-          "package_name": "com.example.uas_qrcode2"
+          "package_name": "id.ac.umn.uas_qrcode2"
         }
       },
       "oauth_client": [

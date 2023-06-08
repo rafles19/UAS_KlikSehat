@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.MainActivity">
+    tools:context="id.ac.umn.uas_qrcode2.activity.MainActivity">
     <!-- text to be converted to QR code -->
     <!-- button to generate QR code -->
     <!-- imageview to display the generated QR code -->

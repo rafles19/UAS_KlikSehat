@@ -9,7 +9,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.uas_qrcode2"
+        applicationId "id.ac.umn.uas_qrcode2"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -52,7 +52,8 @@ dependencies {
     //qr
     implementation 'com.journeyapps:zxing-android-embedded:4.2.0'
 
-    //firebase
-    implementation platform('com.google.firebase:firebase-bom:32.0.0')
-    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation platform('com.google.firebase:firebase-bom:32.1.0')
+    // Add the dependency for the Realtime Database library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-database-ktx'
 }
